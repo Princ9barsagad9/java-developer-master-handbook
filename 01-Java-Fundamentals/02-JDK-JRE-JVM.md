@@ -308,6 +308,38 @@ Interview Questions
          10. Explain Java architecture.
 
 Revision Notes
+       
+                   HelloWorld.java
+                         |
+                         |
+                       javac
+                         |
+                         |
+                   HelloWorld.class
+                         |
+                         |
+                    Class Loader
+                         |
+                         |
+                  Bytecode Verifier
+                         |
+                         |
+                     JVM Memory
+                         |
+                         |
+                  Execution Engine
+                   /            \
+                  /              \
+           Interpreter      JIT Compiler
+                  \              /
+                   \            /
+                    Machine Code
+                         |
+                         |
+                         CPU
+                         |
+                         |
+                    Console Output
 
 **JVM
 =
